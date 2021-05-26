@@ -28,7 +28,7 @@ public class AxonConfig {
     @Value("${spring.data.mongodb.port:27017}")
     private int mongoPort;
 
-    @Value("${spring.data.mongodb.user}")
+    @Value("${spring.data.mongodb.database}")
     private String mongoDatabase;
 
     @Bean
